@@ -18,7 +18,7 @@ cd "$temp_dir"
 git config user.name "Bedrock Bedrock Installer FID"
 git config user.email "bedrock.installer.fid@ibm.com"
 
-for branch in master release-cs323-ltsr release-ltsr22; do
+for branch in master release-cs323-ltsr release-ltsr22 release-efix; do
     # Checkout the branch
     git checkout "$branch"
 
